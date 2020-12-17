@@ -1,0 +1,181 @@
+body{
+    font-family: 'Montaga', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*navigation bar*/
+
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* download buttons*/
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/*title image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* feature section */
+#features{
+    padding: 7% 15%;
+    background-color: white ;
+    position: relative;
+}
+.specification{
+    text-align: center;
+    padding: 50px;
+    padding: 50px;
+}
+
+.r_features{
+    margin: 100px 50px 100px 50px;
+}
+
+.fas{
+    padding: 10px;
+    color:#ff4c68 ;
+}
+
+
+
+.p_features{
+    color: #8f8f8f;
+}
+
+.fas:hover{
+    color: red ;
+}
+
+/*testimonial*/
+
+#testimonials{
+    background-color:#ff4c68 ;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color:#ff4c68 ;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+
+.press-images{
+    width: 15%;
+    margin: 20px 20px 30px 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding:  7% 15%;
+    text-align: center;
+}
+
+.price-column{
+    padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: center;
+}
+.cta_element{
+    padding: 7% 15%;
+}
+.cta_text{
+    font-size: 2.5rem;
+}
+
+
+/*footer*/
+
+#footer{
+    text-align: center;
+}
+.footer_element{
+    padding: 100px 0px;
+}
+.footer_icon{
+    padding: 15px;
+}
+.fab{
+    padding: 10px;
+}
+
+
+/* media query */
+@media (max-width : 1000px){
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
